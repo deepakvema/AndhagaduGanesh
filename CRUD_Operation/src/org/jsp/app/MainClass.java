@@ -40,7 +40,8 @@ public class MainClass {
 				entityManager.getTransaction().commit();
 				
 				break;
-				
+			/*case 2:
+				entityManager.getTransaction().begin();*/
 			case 2:
 				entityManager.getTransaction().begin();
 				
